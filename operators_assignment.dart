@@ -18,10 +18,11 @@ void main() {
   a = 12;
   b = 13;
   a /= b;
-  print("a*=b : ${a}");
+  print("a/=b : ${a}");
 
   a = 12;
   b = 13;
   a %= b;
   print("a%=b : ${a}");
+  
 }
